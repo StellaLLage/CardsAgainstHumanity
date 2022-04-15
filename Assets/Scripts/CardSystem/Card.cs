@@ -23,6 +23,6 @@ public class Card
 
 public enum CardType
 {
-    Answer,
-    Question
+    Question,
+    Answer
 }

@@ -19,10 +19,16 @@ public class CardDisplay : MonoBehaviour
 
     void SetBackgroundColor()
     {
-        if (_card.CardType == CardType.Answer)
+        if (_card.CardType == CardType.Question)
+        {
             _cardDisplay.color = Color.black;
+            _cardDisplayText.color = Color.white;
+        }
         else
-            _cardDisplay.color = Color.white;
+        {
+            _cardDisplay.color = Color.white;  
+            _cardDisplayText.color = Color.black;
+        }
     }
 
     void SetDisplayText()

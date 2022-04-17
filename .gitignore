@@ -1,4 +1,6 @@
 ﻿Temp
+/Library/*
+Library/PackageCache
 Library/Artifacts
 .idea
 Library/ScriptAssemblies

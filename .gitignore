@@ -4,3 +4,6 @@ Library/Artifacts
 Library/ScriptAssemblies
 Library/CurrentMaximizeLayout.dwlt
 Library/SceneVisibilityState.asset
+Library/ScriptAssemblies
+Logs
+*.log

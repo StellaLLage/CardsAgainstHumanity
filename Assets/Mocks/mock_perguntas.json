@@ -1,156 +1,156 @@
 {
-	nome:"amigos",
-	tipo:1,
-	cartas:[
+	"nome":"amigos",
+	"tipo":1,
+	"cartas":[
 		{
-			id_carta:1,
-			texto:"Por que não consigo dormir à noite?",
-			qtd_lacunas:1
+			"id_carta":1,
+			"texto":"Por que não consigo dormir à noite?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:2,
-			texto:"Que cheiro é esse?",
-			qtd_lacunas:1
+			"id_carta":2,
+			"texto":"Que cheiro é esse?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:3,
-			texto:"Eu tenho 99 problemas mas ___ não é um deles",
-			qtd_lacunas:1
+			"id_carta":3,
+			"texto":"Eu tenho 99 problemas mas ___ não é um deles",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:4,
-			texto:"O Óscar de ___ vai para ___",
-			qtd_lacunas:2
+			"id_carta":4,
+			"texto":"O Óscar de ___ vai para ___",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:5,
-			texto:"Desculpa professora, eu não fiz minha lição de casa causa de ________",
-			qtd_lacunas:1
+			"id_carta":5,
+			"texto":"Desculpa professora, eu não fiz minha lição de casa causa de ________",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:6,
-			texto:"___ ‚ uma porta de entrada para ___",
-			qtd_lacunas:2
+			"id_carta":6,
+			"texto":"___ ‚ uma porta de entrada para ___",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:7,
-			texto:"Eu nunca entendi verdadeiramente ___ até encontrar ___",
-			qtd_lacunas:2
+			"id_carta":7,
+			"texto":"Eu nunca entendi verdadeiramente ___ até encontrar ___",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:8,
-			texto:"___ + ___ = ___",
-			qtd_lacunas:3
+			"id_carta":8,
+			"texto":"___ + ___ = ___",
+			"qtd_lacunas":3
 		},
 		{
-			id_carta:9,
-			texto:"Querida tia Maria, estou tendo um problema com ___ e gostaria da sua ajuda.",
-			qtd_lacunas:1
+			"id_carta":9,
+			"texto":"Querida tia Maria, estou tendo um problema com ___ e gostaria da sua ajuda.",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:10,
-			texto:"A vida dos povos indígenas no Brasil mudou para sempre quando o homem branco os introduziu a ___",
-			qtd_lacunas:1
+			"id_carta":10,
+			"texto":"A vida dos povos indígenas no Brasil mudou para sempre quando o homem branco os introduziu a ___",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:11,
-			texto:"Dica divertida! Quando o seu homem pedir para você fazer um oral surpreenda-o com ___ no lugar",
-			qtd_lacunas:1
+			"id_carta":11,
+			"texto":"Dica divertida! Quando o seu homem pedir para você fazer um oral surpreenda-o com ___ no lugar",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:12,
-			texto:"Casar: _____ Transar: ______ Matar: _____",
-			qtd_lacunas:3
+			"id_carta":12,
+			"texto":"Casar: _____ Transar: ______ Matar: _____",
+			"qtd_lacunas":3
 		},
 		{
-			id_carta:13,
-			texto:"Olha como ela é ___ dá ___ pra ela ! ",
-			qtd_lacunas:2
+			"id_carta":13,
+			"texto":"Olha como ela é ___ dá ___ pra ela ! ",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:14,
-			texto:"O que o Leo Stronda comeu no jantar?",
-			qtd_lacunas:1
+			"id_carta":14,
+			"texto":"O que o Leo Stronda comeu no jantar?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:15,
-			texto:"Hoje, na Sessão da Tarde: ___, a história de ___",
-			qtd_lacunas:2
+			"id_carta":15,
+			"texto":"Hoje, na Sessão da Tarde: ___, a história de ___",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:16,
-			texto:"Mais uma noite chega e com ela a ___",
-			qtd_lacunas:1
+			"id_carta":16,
+			"texto":"Mais uma noite chega e com ela a ___",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:17,
-			texto:"A TAM pede desculpas pelo atraso dos voos devido a ___",
-			qtd_lacunas:1
+			"id_carta":17,
+			"texto":"A TAM pede desculpas pelo atraso dos voos devido a ___",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:18,
-			texto:"O que o Prouni esta usando para incentivar estudantes do interior a tentar a universidade ?",
-			qtd_lacunas:1
+			"id_carta":18,
+			"texto":"O que o Prouni esta usando para incentivar estudantes do interior a tentar a universidade ?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:19,
-			texto:"O que a vovó acharia perturbador porém estranhamente encantador ?",
-			qtd_lacunas:1
+			"id_carta":19,
+			"texto":"O que a vovó acharia perturbador porém estranhamente encantador ?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:20,
-			texto:"O que me dá gases incontroláveis?",
-			qtd_lacunas:1
+			"id_carta":20,
+			"texto":"O que me dá gases incontroláveis?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:21,
-			texto:"Após os desastres de Brumadinho, Claudia Raia comprou ___ para o povo mineiro.,
-			qtd_lacunas:1
+			"id_carta":21,
+			"texto":"Após os desastres de Brumadinho, Claudia Raia comprou ___ para o povo mineiro.",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:22,
-			texto:"O que ajuda o Temer a relaxar ?",
-			qtd_lacunas:1
+			"id_carta":22,
+			"texto":"O que ajuda o Temer a relaxar ?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:23,
-			texto:"Qual é o hobbie secreto de Eduardo Bolsonaro?",
-			qtd_lacunas:1
+			"id_carta":23,
+			"texto":"Qual é o hobbie secreto de Eduardo Bolsonaro?",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:24,
-			texto:"Quando eu for um bilionário vou erguer uma estátua de 20 metros em homenagem a ___",
-			qtd_lacunas:1
+			"id_carta":24,
+			"texto":"Quando eu for um bilionário vou erguer uma estátua de 20 metros em homenagem a ___",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:25,
-			texto:"Durante o sexo eu gosto de pensar em ___.",
-			qtd_lacunas:1
+			"id_carta":25,
+			"texto":"Durante o sexo eu gosto de pensar em ___.",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:26,
-			texto:"Queria não ter perdido o manual de ___.",
-			qtd_lacunas:1
+			"id_carta":26,
+			"texto":"Queria não ter perdido o manual de ___.",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:27,
-			texto:""Ao invés de carvão, agora o Papai Noel dá ___ para crianças mal criadas"",
-			qtd_lacunas:1
+			"id_carta":27,
+			"texto":"Ao invés de carvão, agora o Papai Noel dá ___ para crianças mal criadas",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:28,
-			texto:"Em 1000 anos quando dinheiro impresso for uma memória distante ___ vai ser a moeda de troca.",
-			qtd_lacunas:1
+			"id_carta":28,
+			"texto":"Em 1000 anos quando dinheiro impresso for uma memória distante ___ vai ser a moeda de troca.",
+			"qtd_lacunas":1
 		},
 		{
-			id_carta:29,
-			texto:"No novo episódio de Black Mirror, Wagner Moura descobre que ___ era na verdade ___ o tempo todo.",
-			qtd_lacunas:2
+			"id_carta":29,
+			"texto":"No novo episódio de Black Mirror, Wagner Moura descobre que ___ era na verdade ___ o tempo todo.",
+			"qtd_lacunas":2
 		},
 		{
-			id_carta:30,
-			texto:"Num mundo devastado por ___ nosso único consolo é ___.",
-			qtd_lacunas:2
+			"id_carta":30,
+			"texto":"Num mundo devastado por ___ nosso único consolo é ___.",
+			"qtd_lacunas":2
 		}
 	]
 }

@@ -17,15 +17,18 @@ public class Teste : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Debug.Log("Teste R");
-            //ServerCommunication.getGatinho
-
-            ServerCommunication.Instance.getGatinhos(trataRespostaComSucesso, trataRespostaComFalha);
+            ServerCommunication.Instance.GetDeckRespostas(trataRespostaComSucesso, trataRespostaComFalha);
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("Teste R");
+            ServerCommunication.Instance.GetDeckPerguntas(trataRespostaComSucesso, trataRespostaComFalha);
         }
     }
 
     public void trataRespostaComSucesso(string sucesso)
     {
-       //Debug.Log("segue o sucesso:" + sucesso);
+        //Debug.Log("segue o sucesso:" + sucesso);
         Debug.Log($"segue o sucesso: {sucesso}");
 
 

@@ -6,9 +6,8 @@ using UnityEngine.Networking;
 using System;
 
 /// <summary>
-/// This class is responsible for handling REST API requests to remote server.
-/// To extend this class you just need to add new API methods.
-/// </summary>.,llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+/// Classe responsável por comunicação com o back-end via requests http
+/// </summary>
 public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
 {
     #region [Server Communication]
@@ -23,7 +22,7 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
     private void SendRequest<T>(string url, UnityAction<T> callbackOnSuccess, UnityAction<string> callbackOnFail)
     {
         StartCoroutine(RequestCoroutine(url, callbackOnSuccess, callbackOnFail));
-                
+
     }
 
     /// <summary>
@@ -48,7 +47,7 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
         {
             Debug.Log("Deu sucesso na chamada");
             Debug.Log(www.downloadHandler.text);
-            ParseResponse(www.downloadHandler.text, callbackOnSuccess, callbackOnFail);
+            //ParseResponse(www.downloadHandler.text, callbackOnSuccess, callbackOnFail);
         }
     }
 
@@ -65,9 +64,20 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
         callbackOnSuccess?.Invoke(parsedData);
     }
 
-    public void getGatinhos(UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    /*public void getGatinhos(UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
     {
         SendRequest(ServerConfig.SERVER_API_URL_FORMAT, callbackOnSuccess, callbackOnFail);
+    }*/
+
+
+    public void GetDeckPerguntas(UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    {
+        SendRequest(ServerConfig.URL_DECK_PERGUNTAS, callbackOnSuccess, callbackOnFail);
+    }
+
+    public void GetDeckRespostas(UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    {
+        SendRequest(ServerConfig.URL_DECK_RESPOSTAS, callbackOnSuccess, callbackOnFail);
     }
 
     #endregion

@@ -15,6 +15,7 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll(); 
         Connect();
     }
 

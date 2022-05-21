@@ -9,3 +9,6 @@ Library/SceneVisibilityState.asset
 Library/ScriptAssemblies
 Logs
 *.log
+Library/Artifacts
+Library/ArtifactDB
+obj/Debug
